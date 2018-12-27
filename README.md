@@ -51,7 +51,7 @@ You need to use proxy as 127.0.0.1 & port as 8118 in Access Point Name ( APN)  s
 8.You can forward requests to HTTP / SOCKS proxy.Read Privoxy config files for example. In case you need to forward request to SOCKS5 proxy (say example.com:9050) , you can add these lines to /sdcard/etc/privoxy/config file:
 
 `code
-forward-socks5forward-socks5forward-socks5forward-socks5 / example.com:9050
+forward-socks5forward-socks5forward-sockforward-socks5forward-socks5forward-sockforward-socks5forward-socks5forward-socks5forward-socks5 / example.com:9050
 `
 
 
