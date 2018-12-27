@@ -23,6 +23,7 @@ http://www.privoxy.org/sf-download-mirror/Android/
 5. To enable debugging (logging), edit the /sdcard/etc/privoxy/config file and add these lines to the beginning of the file:
 
 `code
+
 debug 1
 
 debug 2
