@@ -44,11 +44,15 @@ privoxy --no-daemon /sdcard/etc/privoxy/config
 7.If everything is alright, you would see Privoxy running successfully on port 8118.
 You need to use proxy as 127.0.0.1 & port as 8118 in Access Point Name ( APN)  settings of your Network .
 
-8.You can also  forward requests to HTTP / SOCKS proxy.Read Privoxy config files for more details. In case you need to forward requests to HTTP / SOCKS5 proxy , you can add these lines to /sdcard/etc/privoxy/config file:
+8.(optional) You can also  forward requests to HTTP / SOCKS proxy.Read Privoxy config files for more details. In case you need to forward requests to HTTP proxy ( say http-proxy.com:80)  , you can add anyone of this line to /sdcard/etc/privoxy/config file:
 
 ```console
 forward   /      http-proxy.com:8080
-forward-socks5forward-socks5forward-sockforward-socks5forward-socks5forward-sockforward-socks5forward-socks5forward-socks5forward-socks5 /  socks-proxy.com:9050
+```
+9.(optional) In case you need to forward requests to SOCKS5 proxy ( say socks5-proxy.com:9050)  , you can add anyone of this line to /sdcard/etc/privoxy/config file:
+
+```console
+forward-socks5 /  socks5-proxy.com:9050 .
 ```
 
 
