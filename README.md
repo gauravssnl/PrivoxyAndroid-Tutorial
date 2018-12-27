@@ -26,13 +26,21 @@ http://www.privoxy.org/sf-download-mirror/Android/
 
 
 debug 1
+
 debug 2
+
 debug 4
+
 debug 128
+
 debug 512
+
 debug 1024
+
 debug 4096
+
 debug 8192
+
 ```
 
 6. Now start Privoxy by using this command :
