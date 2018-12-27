@@ -40,6 +40,7 @@ debug 4096
 
 debug 8192
 `
+
 6. Now start Privoxy by using this command :
 
 `code
